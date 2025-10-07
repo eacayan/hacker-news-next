@@ -1,4 +1,4 @@
-export interface Story {
+export interface HackerNewsStory {
   id: number;
   title: string;
   url?: string;
@@ -8,7 +8,7 @@ export interface Story {
   authorKarma?: number;
 }
 
-export interface User {
+export interface HackerNewsUser {
   id: string;
   created: number;
   karma: number;
