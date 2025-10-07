@@ -1,3 +1,6 @@
+/**
+ * @api: https://github.com/HackerNews/API?tab=readme-ov-file#items
+ */
 export interface HackerNewsStory {
   id: number;
   title: string;
@@ -8,6 +11,9 @@ export interface HackerNewsStory {
   authorKarma?: number;
 }
 
+/**
+ * @api: https://github.com/HackerNews/API?tab=readme-ov-file#users
+ */
 export interface HackerNewsUser {
   id: string;
   created: number;

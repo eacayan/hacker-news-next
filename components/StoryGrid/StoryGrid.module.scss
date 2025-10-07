@@ -1,0 +1,12 @@
+@import '@/styles/variables';
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: $spacing * 1.5;
+  margin-top: $spacing;
+
+  @media (min-width: $bp-tablet) {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+}

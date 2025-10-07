@@ -1,0 +1,75 @@
+@import '@/styles/variables';
+
+.backButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  margin: $spacing 0;
+  background: white;
+  border: 1px solid $border-color;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover {
+    background: #f9f9f9;
+  }
+}
+
+.detail {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  object-fit: cover;
+  background: #f0f0f0;
+}
+
+.content {
+  padding: $spacing * 2;
+}
+
+.detail h1 {
+  font-size: 28px;
+  margin-bottom: $spacing;
+}
+
+.metadata {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: $spacing;
+  padding: $spacing 0;
+  border-top: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
+  margin: $spacing 0;
+}
+
+.item {
+  strong {
+    display: block;
+    color: #666;
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  span {
+    font-size: 18px;
+    color: #333;
+  }
+}
+
+.link {
+  display: inline-block;
+  padding: 12px 24px;
+  background: $primary-color;
+  color: white;
+  border-radius: 4px;
+  font-weight: 600;
+
+  &:hover {
+    background: darken($primary-color, 10%);
+  }
+}
