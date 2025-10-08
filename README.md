@@ -25,9 +25,9 @@ A modern web application built with Next.js 15 that displays and sorts 10 random
 
 ### Core Framework (Boilerplate)
 
-- **Next.js 15+** - React framework with App Router
-- **React 18+** - UI library
-- **TypeScript** - Type safety
+- **Next.js 15+** - App Router
+- **React 18+**
+- **TypeScript**
 
 ### Features (Original Implementation)
 
@@ -37,7 +37,7 @@ A modern web application built with Next.js 15 that displays and sorts 10 random
 
 ### Styling (Original Implementation)
 
-- **SCSS Modules** - Component-scoped styling
+- **SCSS Modules**
 - Custom styling for all components
 
 ### Testing (Original Implementation)
