@@ -3,7 +3,7 @@
 .controls {
   background: white;
   padding: $spacing;
-  border-radius: 8px;
+  border-radius: $border-radius;
   margin-bottom: $spacing;
 
   label {
@@ -15,8 +15,8 @@
 .select {
   padding: 8px 12px;
   border: 1px solid $border-color;
-  border-radius: 4px;
-  font-size: 16px;
+  border-radius: $border-radius;
+  font-size: 1rem;
   cursor: pointer;
 
   &:focus {
