@@ -1,6 +1,8 @@
 # Hacker News Next.js Application
 
 A modern web application built with Next.js 15 that displays and sorts 10 random Hacker News stories with a clean, responsive interface.
+<img width="1581" height="1358" alt="Screenshot 2025-10-08 at 9 42 53 PM" src="https://github.com/user-attachments/assets/c511eb5d-bc1a-4795-99ec-1b87d597e899" />
+
 
 ## Table of Contents
 
