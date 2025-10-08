@@ -88,6 +88,7 @@ hacker-news-next/
 ├── app/
 │   ├── story/
 │   │   └── [id]/
+│   │       ├── loading.tsx
 │   │       ├── page.tsx
 │   │       ├── page.module.scss
 │   │       └── page.test.tsx
@@ -95,11 +96,17 @@ hacker-news-next/
 │   ├── globals.scss
 │   ├── layout.tsx
 │   ├── layout.module.scss
+│   ├── loading.tsx
+│   ├── not-found.tsx
+│   ├── not-found.module.scss
 │   ├── page.tsx
 │   ├── page.module.scss
 │   └── page.test.tsx
 │
 ├── components/
+│   ├── Loader/
+│   │   ├── Loader.tsx
+│   │   └── Loader.module.scss
 │   ├── SortControls/
 │   │   ├── SortControls.tsx
 │   │   ├── SortControls.module.scss
@@ -174,6 +181,11 @@ hacker-news-next/
 
 - Layout component with sorting integration
 
+**Loader**
+
+- Reusable loading component
+- Used across multiple routes
+
 #### 4. **Pages**
 
 **Home Page (`app/page.tsx`)**
@@ -186,6 +198,15 @@ hacker-news-next/
 - Dynamic route for individual stories
 - Calls `notFound()` for missing stories
 - Server-side data fetching with error handling
+
+**Loading States**
+
+- Global loading component (app/loading.tsx)
+- Story-specific loading (app/story/[id]/loading.tsx)
+
+**404 Error Page (app/not-found.tsx)**
+
+- Custom 404 page
 
 #### 5. **Utilities (`lib/utils.ts`) and Types (`types/index.ts`)**
 
