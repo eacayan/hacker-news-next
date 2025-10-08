@@ -89,46 +89,43 @@ hacker-news-next/
 │   ├── story/
 │   │   └── [id]/
 │   │       ├── loading.tsx
-│   │       ├── page.tsx
 │   │       ├── page.module.scss
-│   │       └── page.test.tsx
+│   │       ├── page.test.tsx
+│   │       └── page.tsx
 │   ├── favicon.ico
 │   ├── globals.scss
-│   ├── layout.tsx
 │   ├── layout.module.scss
+│   ├── layout.tsx
 │   ├── loading.tsx
-│   ├── not-found.tsx
 │   ├── not-found.module.scss
-│   ├── page.tsx
-│   ├── page.module.scss
-│   └── page.test.tsx
+│   ├── not-found.tsx
+│   └── page.tsx
 │
 ├── components/
 │   ├── Loader/
-│   │   ├── Loader.tsx
-│   │   └── Loader.module.scss
+│   │   ├── Loader.module.scss
+│   │   └── Loader.tsx
 │   ├── SortControls/
-│   │   ├── SortControls.tsx
 │   │   ├── SortControls.module.scss
-│   │   └── SortControls.test.tsx
+│   │   ├── SortControls.test.tsx
+│   │   └── SortControls.tsx
 │   ├── StoryCard/
-│   │   ├── StoryCard.tsx
 │   │   ├── StoryCard.module.scss
-│   │   └── StoryCard.test.tsx
+│   │   ├── StoryCard.test.tsx
+│   │   └── StoryCard.tsx
 │   ├── StoryGrid/
-│   │   ├── StoryGrid.tsx
 │   │   ├── StoryGrid.module.scss
-│   │   └── StoryGrid.test.tsx
+│   │   ├── StoryGrid.test.tsx
+│   │   └── StoryGrid.tsx
 │   └── index.ts
 │
 ├── hooks/
 │   └── useStorySort/
-│       ├── useStorySort.ts
-│       └── useStorySort.test.ts
+│       ├── useStorySort.test.ts
+│       └── useStorySort.ts
 │
 ├── lib/
 │   ├── api.ts
-│   ├── mocks.ts
 │   └── utils.ts
 │
 ├── mocks/
@@ -146,7 +143,6 @@ hacker-news-next/
 ├── eslint.config.mjs
 ├── jest.config.mjs
 ├── jest.setup.js
-├── next-env.d.ts
 ├── next.config.ts
 ├── package-lock.json
 ├── package.json
@@ -236,11 +232,10 @@ hacker-news-next/
     - File-based routing
 2.  **Configuration Files**
     - `next.config.ts` - Default Next.js configuration
-    - `next-env.d.ts` - Auto-generated TypeScript declarations
     - Base `tsconfig.json` structure
 3.  **Dependencies**
-    - `next` - Framework
-    - `react` and `react-dom` - UI library
+    - `next`
+    - `react` and `react-dom`
     - Standard Next.js peer dependencies
 
 ## API Documentation
